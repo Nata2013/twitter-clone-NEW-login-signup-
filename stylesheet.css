@@ -1,0 +1,125 @@
+
+
+   /*First page and logo*/
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border-radius:30px;
+  }
+    
+  body{
+    height:100hv;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #262a2f;
+  }
+     .img-fluid{
+      width:100%;
+    }
+    
+    @media screen and (max-width: 500px) {
+      .responsive{
+     background-color: rgb(242, 241, 245);
+        
+      }}
+      .responsive img{
+        width:100%;
+      }
+
+  /* page  Lets tweet*/
+  
+  .login-box{
+    background-color:#c5e2d9;
+    padding:30px 120px;
+    width:550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50%, -50%);
+    text-align: center;
+    border-radius:10px;
+  
+  }
+  .logo{
+    width: 30px;
+    margin-bottom:20px;
+  }
+  .login-box h2{
+    margin-bottom: 20px;
+    font-family:italic;
+  }
+  .login-box button img{
+    width:20px;
+    margin-right:10px;
+  }
+  
+  /*images Google and Apple*/
+  .login-box button{
+    width: 100%;
+    padding: 20px 25px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    margin:20px 0;
+    border-radius:30px;
+    border:1px solid #999;
+    font-weight: 500;
+    cursor:pointer;
+    background-color:rgb(147, 222, 250);
+  }
+
+  /*remove line*/
+  .login-box hr{
+    border:0px;
+    height:1px;
+  }
+  
+
+  .container .form .tittle{
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .form .input-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top:30px;
+  }
+  
+
+  .input-field input{
+    height: 100%;
+    width:100%;
+    padding: 30px 50px ;
+    cursor:pointer;
+    background-color:rgb(147, 222, 250);
+  }
+
+.form .checkbox-text{
+  display: flex;
+  justify-content:space-between;
+  margin-top:20px;
+ 
+}
+
+.checkbox-text .checkbox-content{
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-content input{
+  accent-color: rgb(106, 153, 229);
+  margin: 0 8px;
+}
+.form a:hover{
+  color :rgb(231, 87, 87);
+}
+
+.input-field button .input{
+ background-color: red;
+}
