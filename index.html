@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="stylesheet.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="/script.js" defer></script>
 </head>
 <body>
      <body>
@@ -20,11 +21,11 @@
                       <header>Login</header>
                       <form action="#">
                           <div class="field input-field">
-                              <input type="email" placeholder="Email" class="input">
+                              <input type="email" placeholder="Email" class="input" required>
                           </div>
   
                           <div class="field input-field">
-                              <input type="password" placeholder="Password" class="password">
+                              <input type="password" placeholder="Password" class="password" required>
                               <i class='bx bx-hide eye-icon'></i>
                           </div>
   
@@ -63,6 +64,7 @@
   
               <div class="form signup">
                   <div class="form-content">
+                    <img src="logo.png" class="logo">
                       <header>Signup</header>
                       <form action="#">
                           <div class="field input-field">
@@ -91,18 +93,17 @@
                   <div class="line"></div>
   
                   <div class="media-options">
-                      <a href="#" class="field Apple">
-                          <i class=''></i>
-                          <span>Login with Apple</span>
-                      </a>
-                  </div>
-  
-                  <div class="media-options">
-                      <a href="#" class="field google">
-                          <img src="#" alt="" class="google-img">
-                          <span>Login with Google</span>
-                      </a>
-                  </div>
+                    <a href="#" class="field apple">
+                      <button><img src="google.png">Continue with Google</button>
+                    </a>
+                </div>
+
+                <div class="media-options">
+                    <a href="#" class="field google">
+                      <button><img src="apple.png" a href="#apple.com">Continue with Apple</button>
+                        
+                    </a>
+                </div>
   
               </div>
           </section>
