@@ -86,14 +86,17 @@
      cursor: pointer;
      padding: 5px;
  }
+
+ 
  .field button{
-     color: #fff;
-     background-color: #5395cf;
+     color: #170303;
+     background-color: #cf731e;
      transition: all 0.3s ease;
      cursor: pointer;
+     border-radius: 50px;
  }
  .field button:hover{
-     background-color: #0e3d65;
+     background-color: #0d4f88;
  }
  .form-link{
      text-align: center;
@@ -133,12 +136,6 @@
      display: flex;
      align-items: center;
      justify-content: center;
- }
-
-
- .field google{
-    background: #880909;
-    background-color: #880909;
  }
 
 
