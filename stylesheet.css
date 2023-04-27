@@ -14,26 +14,33 @@
  h2{
     padding-left: 80px;
  }
+
+ /*background*/
  .container{
      height: 100vh;
      width: 100%;
      display: flex;
      align-items: center;
      justify-content: center;
-     background-color: #4070f4;
+     background-color: #496fd7;
      column-gap: 30px;
  }
+
+ /*inside content color*/
  .form{
      position: absolute;
      max-width: 430px;
      width: 100%;
      padding: 30px;
      border-radius: 6px;
-     background: #FFF;
+     background: #dfc9c9;
  }
+
+
  .form.signup{
      opacity: 0;
      pointer-events: none;
+
  }
  .forms.show-signup .form.signup{
      opacity: 1;
@@ -74,7 +81,7 @@
      border: 1px solid#CACACA;
  }
  .field input:focus{
-     border-bottom-width: 2px;
+     border-bottom-width: 12px;
  }
  .eye-icon{
      position: absolute;
@@ -102,12 +109,16 @@
      text-align: center;
      margin-top: 10px;
  }
+
+ /*have an account yet*/
  .form-link span,
  .form-link a{
      font-size: 14px;
      font-weight: 400;
-     color: #232836;
+     color: #610866;
  }
+
+
  .form a{
      color: #0171d3;
      text-decoration: none;
@@ -141,7 +152,7 @@
 
  @media screen and (max-width: 400px) {
      .form{
-         padding: 20px 10px;
+         padding: 120px 110px;
      }
      
  }
